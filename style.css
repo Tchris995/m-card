@@ -1,0 +1,306 @@
+.one{
+  margin-top: 100px;
+  background-image: linear-gradient(to right, rgb(68, 241, 68), rgb(230, 51, 51));
+  height: 70vh;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  
+}
+
+.one .two{
+  background-image: linear-gradient(to right, white, white);
+  height: 70%; 
+  width: 25%;
+  border-radius: 5px;
+}
+
+.one .three{
+  background-image: linear-gradient(to right, white, white);
+  height: 70%;
+  width: 25%;
+  border-radius: 5px;
+}
+
+.paragragh p{
+  font-size: 13px;
+  background-color: rgb(204, 187, 220);
+  width: 25%;
+  margin-left: 10px;
+  margin-top: 3%;
+  padding: 0.5px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.paragragh{
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.imageAndText{
+  /* background-image: linear-gradient(to right, blue,blue); */
+  
+  margin-top: -13px;
+  height: 52%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.my-image{
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.imageAndText h4{
+  margin: 0;
+  margin-top: 1px;
+}
+
+
+.text{
+  margin-top: -10px;
+  font-size: small;
+  width: 50%;
+  margin-left: 10px;
+  margin-bottom: -15px;
+}
+
+.imageAndText h4{
+  
+  margin-left: -27px;
+}
+
+.last-div{
+  
+  height: 20%;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+ 
+  
+}
+
+.last-div div{
+  display: flex;
+  /* background-color: brown; */
+  width: 42%;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.last-div .come button{
+  background-color: beige;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 6%;
+}
+
+.last-div .go button{
+  background-color:rgb(205, 83, 205);
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 6%;
+}
+
+.text p{margin-top: 40%;}
+
+
+
+.last-div .go button:hover{
+  cursor: pointer;
+  background-color: aqua;
+} 
+
+.last-div .come button:hover{
+  cursor: pointer;
+  background-color: aqua;
+} 
+
+/* @media (max-width: 1027px) {
+  .imageAndText h4{
+    margin-left: 5px;
+    width: 90%;
+    margin-top: -10px;
+  }
+} */
+/* 
+@media (min-width: 1024px) {
+  .one .two, .one .three {
+    width: 25%;
+  }
+}
+
+@media (max-width: 780px) {
+  .one .two{
+    width: 40%;
+  }
+} */
+
+@media (min-width: 1020px) {
+  .imageAndText h4{
+    width: 90%;
+    
+    margin-left: -2%;
+    font-size: 16px;
+    /* text-align: center;  */
+    
+  }
+}
+
+@media (min-width: 950px) {
+  .text{
+   margin-top: -90%;
+  }
+ }
+
+@media (min-width: 649px) {
+  .one .two{
+    width: 35%;
+    height: 85%;
+  }
+
+  .one .three{
+    width: 35%;
+    height: 85%;
+  }
+
+
+  .imageAndText h4{
+    width: 90%;
+    font-size: 14px;
+    
+    margin-left: 2%;
+    margin-top: -10%;
+  }
+}
+
+@media (min-width: 950px) {
+ .text{
+  margin-top: -9%;
+ }
+}
+
+
+
+@media (max-width: 640px) {
+  .one .two{
+    width: 40%;
+  }
+
+  .one .three{
+    width: 40%;
+  }
+
+  .imageAndText h4{
+    width: 90%;
+    font-size: 13px;
+    
+    margin-left: 2%;
+    margin-top: -10%;
+  }
+}
+
+@media (max-width: 530px) {
+  .one{width: 90%;
+   
+  }
+ }
+
+ 
+@media (max-width: 420px) {
+  .one{width: 100%;
+    height: auto;
+    gap: 5px;
+    font-size: 16px;
+   
+  }
+
+  .one .two{
+    
+    width: 100%;
+    height: auto;
+  
+  }
+
+  .one .three{
+    width: 55%;
+    height: 90%;
+
+  }
+
+  .imageAndText h4{
+    font-size: 16px;
+  }
+ }
+
+ @media (min-width: 1024px) {
+  .text{
+    width: 50%;
+  }
+
+  .last-div{
+    margin-left: -10px;
+  }
+
+  .imageAndText h4{
+    margin-left: -8px;
+    margin-top: 1px;
+    font-size: 25px;
+  }
+
+  .text{
+    font-size: 18px;
+  }
+
+  
+ }
+
+ @media (max-width: 340px) {
+  .imageAndText h4{
+    font-size: 20px;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .one .two, .one .three{
+    height: 100%;
+  }
+ }
+
+ @media (min-width: 1603px) {
+  .imageAndText h4{
+    width: 90%;
+    
+    margin-left: -1%;
+    font-size: 26px;
+    /* text-align: center;  */
+
+    
+  }
+
+  .last-div div button{
+    font-size: 30px;
+  
+  }
+  
+ }
+
+
+
+ 
+
+
+
